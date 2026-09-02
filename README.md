@@ -1,7 +1,9 @@
+![GitHub Release](https://img.shields.io/github/v/release/pinodesk/toolbox)
 ![CI](https://github.com/pinodesk/toolbox/actions/workflows/ci.yml/badge.svg)
 ![codecov](https://codecov.io/gh/pinodesk/toolbox/branch/main/graph/badge.svg)
+[![Quality gate status](https://sonarcloud.io/api/project_badges/measure?project=pinodesk_toolbox&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=pinodesk_toolbox)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=pinodesk_toolbox&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=pinodesk_toolbox)
 ![License](https://img.shields.io/github/license/pinodesk/toolbox)
-![GitHub Release](https://img.shields.io/github/v/release/pinodesk/toolbox)
 
 # Toolbox
 
@@ -29,28 +31,3 @@ General-purpose utilities for Java projects
     <version>0.3.0-SNAPSHOT</version>
 </dependency>
 ```
-
-## Badges
-
-This project uses the following free services for open source projects:
-
-- **GitHub Actions**: CI/CD pipeline status
-- **Codecov**: Code coverage reporting
-- **GitHub License**: License badge (MIT)
-
-### Optional Badge Services
-
-You can also add these badges by configuring the respective services:
-
-- **SonarCloud**: Code quality and security analysis
-  ```markdown
-  ![SonarCloud](https://sonarcloud.io/api/project_badges/measure?project=pinodesk_toolbox&metric=alert_status)
-  ```
-- **Maven Central**: If you publish to Maven Central
-  ```markdown
-  ![Maven Central](https://img.shields.io/maven-central/v/com.pinodesk/toolbox)
-  ```
-- **GitHub Release**: Latest release version
-  ```markdown
-  ![GitHub Release](https://img.shields.io/github/v/release/pinodesk/toolbox)
-  ```
