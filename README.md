@@ -1,9 +1,9 @@
-![GitHub Release](https://img.shields.io/github/v/release/pinodesk/toolbox)
-![CI](https://github.com/pinodesk/toolbox/actions/workflows/ci.yml/badge.svg)
-![codecov](https://codecov.io/gh/pinodesk/toolbox/branch/main/graph/badge.svg)
+[![GitHub Release](https://img.shields.io/github/v/release/pinodesk/toolbox)](https://github.com/pinodesk/toolbox/releases)
+[![CI](https://github.com/pinodesk/toolbox/actions/workflows/ci.yml/badge.svg)](https://github.com/pinodesk/toolbox/actions/workflows/ci.yml)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=pinodesk_toolbox&metric=coverage)](https://sonarcloud.io/summary/new_code?id=pinodesk_toolbox)
 [![Quality gate status](https://sonarcloud.io/api/project_badges/measure?project=pinodesk_toolbox&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=pinodesk_toolbox)
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=pinodesk_toolbox&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=pinodesk_toolbox)
-![License](https://img.shields.io/github/license/pinodesk/toolbox)
+[![License](https://img.shields.io/github/license/pinodesk/toolbox)](https://github.com/pinodesk/toolbox/blob/main/LICENSE)
 
 # Toolbox
 
