@@ -11,7 +11,9 @@ General-purpose utilities for Java projects
 
 ## How to Use
 
-1. Add GitHub Packages as a Maven repository in your `pom.xml`:
+### Using GitHub Packages
+
+Add GitHub Packages as a Maven repository in your `pom.xml`:
 
 ```xml
 <repositories>
@@ -22,12 +24,33 @@ General-purpose utilities for Java projects
 </repositories>
 ```
 
-2. Add this project as a Maven dependency:
+Add this project as a Maven dependency:
 
 ```xml
 <dependency>
     <groupId>com.pinodesk</groupId>
     <artifactId>toolbox</artifactId>
-    <version>0.3.0-SNAPSHOT</version>
+    <version>0.4.0-SNAPSHOT</version>
 </dependency>
 ```
+
+### Authentication Required
+
+GitHub Packages requires authentication. Add the following to your `~/.m2/settings.xml`:
+
+```xml
+<settings>
+  <servers>
+    <server>
+      <id>github</id>
+      <username>YOUR_GITHUB_USERNAME</username>
+      <password>YOUR_GITHUB_TOKEN</password>
+    </server>
+  </servers>
+</settings>
+```
+
+To create a GitHub token:
+1. Go to GitHub Settings → Developer settings → Personal access tokens → Tokens (classic)
+2. Generate a new token with `read:packages` scope
+3. Use the token as the password in settings.xml
