@@ -16,12 +16,12 @@
     </properties>
     <distributionManagement>
         <repository>
-            <id>gitlab-maven</id>
-            <url>https://gitlab.com/api/v4/projects/25987999/packages/maven</url>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/pinodesk/toolbox</url>
         </repository>
         <snapshotRepository>
-            <id>gitlab-maven</id>
-            <url>https://gitlab.com/api/v4/projects/25987999/packages/maven</url>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/pinodesk/toolbox</url>
         </snapshotRepository>
     </distributionManagement>
     <dependencies>
