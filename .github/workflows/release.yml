@@ -28,7 +28,7 @@ jobs:
     - name: Extract version from pom.xml
       id: version
       run: |
-        VERSION=$(./mvnw help:evaluate -Dexpression=project.version -q -DforceStdout)
+        VERSION=$(./mvnw help:evaluate -Dexpression=project.version -q -DforceStdout | grep -v 'Downloading' | grep -v 'Downloaded' | tail -1)
         echo "version=${VERSION}" >> $GITHUB_OUTPUT
     
     - name: Build and publish release
