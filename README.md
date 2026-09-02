@@ -51,6 +51,6 @@ GitHub Packages requires authentication. Add the following to your `~/.m2/settin
 ```
 
 To create a GitHub token:
-1. Go to GitHub Settings → Developer settings → Personal access tokens → Tokens (classic)
+1. Go to GitHub Settings > Developer settings > Personal access tokens > Tokens (classic)
 2. Generate a new token with `read:packages` scope
 3. Use the token as the password in settings.xml
