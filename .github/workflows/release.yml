@@ -31,7 +31,7 @@ jobs:
         git config user.email "github-actions[bot]@users.noreply.github.com"
     
     - name: Run gitflow release
-      run: ./mvnw gitflow:release -DversionDigitToIncrement=1
+      run: ./mvnw --batch-mode gitflow:release -DversionDigitToIncrement=1 # --batch-mode to avoid interactive prompts
       env:
         MAVEN_USERNAME: ${{ github.actor }}
         MAVEN_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
